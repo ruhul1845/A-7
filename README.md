@@ -1,16 +1,64 @@
-# React + Vite
+# 👥 KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeenKeeper is a friendship management web app that helps you stay connected with the people who matter most. Track your interactions, set contact goals, and never let a friendship go cold again.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
 
-## React Compiler
+| Technology | Purpose |
+|---|---|
+| React.js | Build the UI |
+| React Router DOM | Handle page navigation |
+| Tailwind CSS | Styling and responsiveness |
+| Recharts | Pie chart for analytics |
+| Context API | Global state management (Timeline) |
+| React Hot Toast | Toast notifications |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👫 Friend Cards
+- Displays all friends in a 4-column grid
+- Each card shows profile picture, name, days since contact, tags, and status
+- Status badge color changes based on: `on-track`, `almost due`, or `overdue`
+- Click any card to navigate to the Friend Details page
+
+### 📋 Friend Details Page
+- Two-column layout with full friend info (bio, email, tags, status)
+- Stats cards: Days Since Contact, Goal, Next Due Date
+- Quick Check-In buttons: **Call**, **Text**, **Video**
+- Clicking a button logs a new timeline entry and shows a toast notification
+- Action buttons: Snooze 2 Weeks, Archive, Delete
+
+### 📜 Timeline Page
+- Shows full history of all interactions (calls, texts, video calls)
+- Each entry displays date, interaction type icon, and title
+- Filter entries by: Call, Text, or Video
+
+### 📊 Friendship Analytics (Stats Page)
+- Pie chart (Recharts) showing count of Call / Text / Video interactions
+
+### 🔝 Navbar & 🦶 Footer
+- Responsive Navbar with logo, navigation links (Home, Timeline, Stats), and icons
+- Active link is highlighted
+- Clean footer matching the design
+
+### 📱 Fully Responsive
+- Works on mobile, tablet, and desktop screen sizes
+
+### 🔒 Other
+- 404 Error Page for unknown routes
+- Loading animation while friends data is being fetched
+- No page errors on reload after deployment
+
+---
+
+## 🚀 Live Demo
+
+🔗 [Live Link](https://assign-7-nine.vercel.app/)
+
+## 📁 GitHub Repository
+
+🔗 [GitHub Repo](https://github.com/ruhul1845/A-7)
