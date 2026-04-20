@@ -14,8 +14,9 @@ const FriendShow = ({ friend }) => {
 
 
                 {/* Avatar placeholder */}
-                <div className="w-16 h-16 mx-auto rounded-full bg-gray-300 flex items-center justify-center text-xl font-semibold text-white">
-                    <img src={friend.picture} alt="img" />
+
+                <div className="w-16 h-16 mx-auto rounded-full bg-gray-300 overflow-hidden">
+                    <img src={friend.picture} alt={friend.name} className="w-full h-full object-cover" />
                 </div>
 
                 {/* Name */}
