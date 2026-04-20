@@ -116,19 +116,19 @@ const FriendDetails = () => {
                         <div className="grid grid-cols-3 gap-4">
                             <button
                                 onClick={() => Handlecall("call")}
-                                className="flex flex-col items-center justify-center p-4 border border-gray-100 rounded-xl hover:bg-gray-50">
+                                className="flex flex-col items-center justify-center p-4 border border-gray-100 rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer ">
                                 <span className="text-xl mb-1">📞</span>
                                 <span className="text-sm text-gray-600">Call</span>
                             </button>
                             <button
                                 onClick={() => Handlecall("text")}
-                                className="flex flex-col items-center justify-center p-4 border border-gray-100 rounded-xl hover:bg-gray-50">
+                                className="flex flex-col items-center justify-center p-4 border border-gray-100 rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer ">
                                 <span className="text-xl mb-1">💬</span>
                                 <span className="text-sm text-gray-600">Text</span>
                             </button>
                             <button
                                 onClick={() => Handlecall("video")}
-                                className="flex flex-col items-center justify-center p-4 border border-gray-100 rounded-xl hover:bg-gray-50">
+                                className="flex flex-col items-center justify-center p-4 border border-gray-100 rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer ">
                                 <span className="text-xl mb-1">🎥</span>
                                 <span className="text-sm text-gray-600">Video</span>
                             </button>
