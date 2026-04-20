@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "picture": "/src/assests/one.png",
+        "email": "john@example.com",
+        "days_since_contact": 12,
+        "status": "overdue",
+        "tags": [
+            "college",
+            "close friend"
+        ],
+        "bio": "Met in university. Love hiking together.",
+        "goal": 14,
+        "next_due_date": "2026-03-20",
+        "check": ""
+    },
+    {
+        "id": 2,
+        "name": "Sarah Mitchell",
+        "picture": "/src/assests/two.png",
+        "email": "sarah.mitchell@example.com",
+        "days_since_contact": 3,
+        "status": "on_track",
+        "tags": [
+            "work",
+            "mentor"
+        ],
+        "bio": "My manager at first job. Brilliant strategist and kind person.",
+        "goal": 7,
+        "next_due_date": "2026-02-24",
+        "check": ""
+    },
+    {
+        "id": 3,
+        "name": "Carlos Rivera",
+        "picture": "/src/assests/three.png",
+        "email": "carlos.r@example.com",
+        "days_since_contact": 30,
+        "status": "overdue",
+        "tags": [
+            "childhood",
+            "family friend"
+        ],
+        "bio": "Grew up next door. Our families still get together every year.",
+        "goal": 21,
+        "next_due_date": "2026-04-01",
+        "check": ""
+    },
+    {
+        "id": 4,
+        "name": "Aisha Patel",
+        "picture": "/src/assests/four.png",
+        "email": "aisha.patel@example.com",
+        "days_since_contact": 1,
+        "status": "on_track",
+        "tags": [
+            "networking",
+            "tech"
+        ],
+        "bio": "Met at a React conference in 2023. Building a startup together.",
+        "goal": 10,
+        "next_due_date": "2026-03-27",
+        "check": ""
+    },
+    {
+        "id": 5,
+        "name": "Tom Nguyen",
+        "picture": "/src/assests/five.png",
+        "email": "tom.nguyen@example.com",
+        "days_since_contact": 60,
+        "status": "overdue",
+        "tags": [
+            "college",
+            "roommate"
+        ],
+        "bio": "Lived together sophomore year. Always up for a road trip.",
+        "goal": 30,
+        "next_due_date": "2026-04-15",
+        "check": ""
+    },
+    {
+        "id": 6,
+        "name": "Emily Carter",
+        "picture": "/src/assests/six.png",
+        "email": "emily.c@example.com",
+        "days_since_contact": 7,
+        "status": "on_track",
+        "tags": [
+            "close friend",
+            "neighbor"
+        ],
+        "bio": "Lives two blocks away. Weekly coffee catch-ups keep us close.",
+        "goal": 14,
+        "next_due_date": "2026-02-28",
+        "check": ""
+    },
+    {
+        "id": 7,
+        "name": "Marcus Johnson",
+        "picture": "/src/assests/seven.png",
+        "email": "marcus.j@example.com",
+        "days_since_contact": 45,
+        "status": "overdue",
+        "tags": [
+            "work",
+            "ex-colleague"
+        ],
+        "bio": "Worked together at Acme Corp. Great designer and even better cook.",
+        "goal": 30,
+        "next_due_date": "2026-01-30",
+        "check": ""
+    },
+    {
+        "id": 8,
+        "name": "Priya Sharma",
+        "picture": "/src/assests/eight.png",
+        "email": "priya.sharma@example.com",
+        "days_since_contact": 5,
+        "status": "on_track",
+        "tags": [
+            "family",
+            "cousin"
+        ],
+        "bio": "Cousin from Mumbai. We bond over Bollywood movies and cricket debates.",
+        "goal": 7,
+        "next_due_date": "2026-02-22",
+        "check": ""
+    }
+]
