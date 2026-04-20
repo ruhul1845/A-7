@@ -67,6 +67,11 @@ const Timeline = () => {
                                             year: 'numeric',
                                             month: 'long',
                                             day: 'numeric'
+                                        })}{' '},
+                                        {new Date().toLocaleTimeString('en-US', {
+                                            hour: '2-digit',
+                                            minute: '2-digit',
+                                            hour12: true
                                         })}
                                     </p>
                                 </div>
