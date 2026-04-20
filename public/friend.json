@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "John Doe",
-        "picture": "/src/assests/one.png",
+        "picture": "/one.png",
         "email": "john@example.com",
         "days_since_contact": 12,
         "status": "overdue",
@@ -18,7 +18,7 @@
     {
         "id": 2,
         "name": "Sarah Mitchell",
-        "picture": "/src/assests/two.png",
+        "picture": "/two.png",
         "email": "sarah.mitchell@example.com",
         "days_since_contact": 3,
         "status": "on_track",
@@ -34,7 +34,7 @@
     {
         "id": 3,
         "name": "Carlos Rivera",
-        "picture": "/src/assests/three.png",
+        "picture": "/three.png",
         "email": "carlos.r@example.com",
         "days_since_contact": 30,
         "status": "overdue",
@@ -50,7 +50,7 @@
     {
         "id": 4,
         "name": "Aisha Patel",
-        "picture": "/src/assests/four.png",
+        "picture": "/four.png",
         "email": "aisha.patel@example.com",
         "days_since_contact": 1,
         "status": "on_track",
@@ -66,7 +66,7 @@
     {
         "id": 5,
         "name": "Tom Nguyen",
-        "picture": "/src/assests/five.png",
+        "picture": "/five.png",
         "email": "tom.nguyen@example.com",
         "days_since_contact": 60,
         "status": "overdue",
@@ -82,7 +82,7 @@
     {
         "id": 6,
         "name": "Emily Carter",
-        "picture": "/src/assests/six.png",
+        "picture": "/six.png",
         "email": "emily.c@example.com",
         "days_since_contact": 7,
         "status": "on_track",
@@ -98,7 +98,7 @@
     {
         "id": 7,
         "name": "Marcus Johnson",
-        "picture": "/src/assests/seven.png",
+        "picture": "/seven.png",
         "email": "marcus.j@example.com",
         "days_since_contact": 45,
         "status": "overdue",
@@ -114,7 +114,7 @@
     {
         "id": 8,
         "name": "Priya Sharma",
-        "picture": "/src/assests/eight.png",
+        "picture": "/eight.png",
         "email": "priya.sharma@example.com",
         "days_since_contact": 5,
         "status": "on_track",
