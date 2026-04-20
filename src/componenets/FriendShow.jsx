@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
+
 const FriendShow = ({ friend }) => {
     const getStatusColor = (status) => {
         if (status === "overdue") return "bg-red-500";
@@ -10,8 +11,7 @@ const FriendShow = ({ friend }) => {
     };
     return (
         <Link to={`/friend/${friend.id}`}>
-            <div className="bg-white rounded-xl shadow-sm p-6 text-center w-64">
-
+            <div className="bg-white rounded-xl shadow-sm p-6 text-center w-64 hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer">
 
                 {/* Avatar placeholder */}
 
