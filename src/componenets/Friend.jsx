@@ -51,7 +51,7 @@ const Friend = () => {
                 <div className="flex items-center justify-center mt-16">
                     {loading
                         ? <MoonLoader color="#166534" className='my-10' />
-                        : <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mx-auto my-8 ">
+                        : <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-auto my-8 ">
                             {friends.map((friend) => (
                                 <FriendShow key={friend.id} friend={friend} />
                             ))}
